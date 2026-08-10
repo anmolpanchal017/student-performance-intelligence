@@ -1,0 +1,604 @@
+student_id,student_name,class_id,subject,topic,assessment_name,marks_obtained,total_marks,attempt_date,time_taken,questions_attempted,questions_correct
+S012,Dev,10A,Chemistry,Inorganic Chemistry,Assessment 1,82,100,2026-07-01,32.0,45,37
+S053,Sarthak,10C,Mathematics,Algebra,Assessment 8,74,100,2026-08-14,37.0,40,30
+S057,Tushar,10C,Physics,Thermodynamics,Assessment 8,74,100,2026-08-13,55.0,31,23
+S008,Kabir,10A,Computer Science,Computer Networks,Assessment 8,61,100,2026-08-12,26.0,42,26
+S019,Isha,10A,Physics,Current Electricity,Assessment 2,71,100,2026-07-07,45.0,37,26
+S029,Shreya,10B,Mathematics,Calculus,Assessment 5,70,100,2026-07-26,32.0,31,22
+S002,Vivaan,10A,Computer Science,Data Structures,Assessment 1,81,100,2026-07-02,58.0,44,36
+S052,Vansh,10C,Mathematics,Algebra,Assessment 10,67,100,2026-08-25,47.0,45,30
+S008,Kabir,10A,Computer Science,Computer Networks,Assessment 9,65,100,2026-08-18,51.0,42,27
+S035,Ritika,10B,Computer Science,Operating Systems,Assessment 10,67,100,2026-08-26,25.0,38,26
+S006,Rahul,10A,Mathematics,Calculus,Assessment 6,65,100,2026-08-01,39.0,37,24
+S012,Dev,10A,Chemistry,Organic Chemistry,Assessment 9,82,100,2026-08-18,54.0,39,32
+S011,Krishna,10A,Physics,Mechanics,Assessment 10,78,100,2026-08-26,53.0,45,35
+S060,Gaurav,10C,Chemistry,Inorganic Chemistry,Assessment 2,88,100,2026-07-09,43.0,35,31
+S038,Dhruv,10B,Mathematics,Calculus,Assessment 1,81,100,2026-07-02,44.0,40,32
+S024,Kavya,10B,Physics,Optics,Assessment 5,70,100,2026-07-25,58.0,47,33
+S004,Arjun,10A,Mathematics,Calculus,Assessment 1,53,100,2026-07-02,50.0,36,19
+S022,Riya,10B,Computer Science,Computer Networks,Assessment 3,55,100,2026-07-14,45.0,30,17
+S019,Isha,10A,Physics,Thermodynamics,Assessment 5,69,100,2026-07-27,27.0,49,34
+S009,Ishaan,10A,Physics,Current Electricity,Assessment 7,87,100,2026-08-06,34.0,49,43
+S001,Aarav,10A,Mathematics,Probability,Assessment 3,81,100,2026-07-14,29.0,38,31
+S041,Rudra,10C,Chemistry,Chemical Bonding,Assessment 9,73,100,2026-08-19,52.0,35,26
+S054,Akash,10C,Chemistry,Inorganic Chemistry,Assessment 8,78,100,2026-08-14,46.0,32,25
+S060,Gaurav,10C,Chemistry,Inorganic Chemistry,Assessment 10,84,100,2026-08-24,36.0,50,42
+S037,Manav,10B,Chemistry,Thermodynamics,Assessment 10,85,100,2026-08-26,29.0,31,26
+S041,Rudra,10C,Computer Science,Operating Systems,Assessment 3,55,100,2026-07-14,44.0,30,17
+S008,Kabir,10A,Chemistry,Thermodynamics,Assessment 3,76,100,2026-07-15,53.0,47,36
+S014,Kunal,10A,Mathematics,Algebra,Assessment 6,76,100,2026-08-01,34.0,50,38
+S056,Lakshya,10C,Mathematics,Algebra,Assessment 9,55,100,2026-08-19,38.0,35,19
+S044,Shivansh,10C,Computer Science,Computer Networks,Assessment 9,77,100,2026-08-18,36.0,47,36
+S060,Gaurav,10C,Mathematics,Probability,Assessment 9,89,100,2026-08-19,34.0,44,39
+S017,Diya,10A,Mathematics,Probability,Assessment 4,62,100,2026-07-21,35.0,38,24
+S009,Ishaan,10A,Computer Science,DBMS,Assessment 3,81,100,2026-07-14,49.0,38,31
+S026,Pooja,10B,Physics,Optics,Assessment 8,56,100,2026-08-12,46.0,47,27
+S020,Meera,10A,Mathematics,Geometry,Assessment 3,55,100,2026-07-13,30.0,32,18
+S054,Akash,10C,Computer Science,DBMS,Assessment 7,73,100,2026-08-07,47.0,37,27
+S014,Kunal,10A,Physics,Current Electricity,Assessment 3,72,100,2026-07-14,53.0,39,28
+S052,Vansh,10C,Physics,Current Electricity,Assessment 8,63,100,2026-08-14,55.0,47,30
+S045,Mohit,10C,Physics,Optics,Assessment 4,73,100,2026-07-19,54.0,35,26
+S028,Muskan,10B,Chemistry,Chemical Bonding,Assessment 6,83,100,2026-08-02,43.0,49,41
+S037,Manav,10B,Computer Science,DBMS,Assessment 6,82,100,2026-07-31,54.0,34,28
+S003,Aditya,10A,Physics,Mechanics,Assessment 10,77,100,2026-08-26,30.0,30,23
+S051,Raj,10C,Chemistry,Thermodynamics,Assessment 8,78,100,2026-08-13,35.0,32,25
+S058,Deepak,10C,Computer Science,DBMS,Assessment 4,66,100,2026-07-21,36.0,30,20
+S003,Aditya,10A,Computer Science,DBMS,Assessment 5,75,100,2026-07-26,31.0,36,27
+S019,Isha,10A,Physics,Current Electricity,Assessment 3,68,100,2026-07-14,58.0,43,29
+S040,Vihaan,10B,Chemistry,Organic Chemistry,Assessment 4,74,100,2026-07-19,59.0,38,28
+S011,Krishna,10A,Mathematics,Algebra,Assessment 5,62,100,2026-07-27,59.0,33,20
+S007,Aryan,10A,Chemistry,Inorganic Chemistry,Assessment 4,73,100,2026-07-19,36.0,42,31
+S037,Manav,10B,Mathematics,Calculus,Assessment 1,80,100,2026-07-01,39.0,39,31
+S025,Nisha,10B,Mathematics,Geometry,Assessment 6,83,100,2026-07-31,45.0,30,25
+S025,Nisha,10B,Chemistry,Inorganic Chemistry,Assessment 9,84,100,2026-08-18,58.0,49,41
+S011,Krishna,10A,Computer Science,Data Structures,Assessment 2,54,100,2026-07-07,40.0,42,23
+S056,Lakshya,10C,Computer Science,DBMS,Assessment 8,59,100,2026-08-13,27.0,42,25
+S060,Gaurav,10C,Chemistry,Chemical Bonding,Assessment 5,85,100,2026-07-26,32.0,44,37
+S036,Ayush,10B,Chemistry,Inorganic Chemistry,Assessment 8,77,100,2026-08-14,51.0,31,24
+S021,Priya,10B,Mathematics,Geometry,Assessment 10,57,100,2026-08-26,60.0,46,26
+S017,Diya,10A,Computer Science,Data Structures,Assessment 6,71,100,2026-07-31,50.0,37,26
+S014,Kunal,10A,Computer Science,DBMS,Assessment 8,73,100,2026-08-13,37.0,42,30
+S020,Meera,10A,Physics,Optics,Assessment 6,66,100,2026-08-02,57.0,33,22
+S008,Kabir,10A,Computer Science,DBMS,Assessment 7,54,100,2026-08-08,46.0,43,23
+S018,Aanya,10A,Chemistry,Organic Chemistry,Assessment 7,62,100,2026-08-07,54.0,33,20
+S033,Anjali,10B,Computer Science,Computer Networks,Assessment 10,81,100,2026-08-26,45.0,39,32
+S054,Akash,10C,Computer Science,Data Structures,Assessment 9,74,100,2026-08-19,47.0,32,24
+S059,Rajat,10C,Chemistry,Chemical Bonding,Assessment 6,64,100,2026-08-02,46.0,32,21
+S008,Kabir,10A,Physics,Mechanics,Assessment 1,56,100,2026-07-02,54.0,46,26
+S057,Tushar,10C,Physics,Thermodynamics,Assessment 4,68,100,2026-07-19,31.0,48,33
+S047,Abhishek,10C,Physics,Current Electricity,Assessment 10,79,100,2026-08-25,34.0,36,28
+S009,Ishaan,10A,Physics,Thermodynamics,Assessment 2,85,100,2026-07-09,30.0,30,25
+S032,Sakshi,10B,Computer Science,Computer Networks,Assessment 7,66,100,2026-08-08,58.0,34,23
+S031,Neha,10B,Computer Science,Operating Systems,Assessment 5,72,100,2026-07-27,33.0,33,24
+S001,Aarav,10A,Mathematics,Geometry,Assessment 7,88,100,2026-08-07,54.0,50,44
+S043,Parth,10C,Mathematics,Probability,Assessment 5,71,100,2026-07-25,30.0,43,31
+S038,Dhruv,10B,Computer Science,Operating Systems,Assessment 6,83,100,2026-07-31,27.0,43,36
+S049,Aman,10C,Chemistry,Chemical Bonding,Assessment 6,71,100,2026-07-31,32.0,38,27
+S054,Akash,10C,Chemistry,Organic Chemistry,Assessment 10,75,100,2026-08-26,53.0,42,32
+S032,Sakshi,10B,Computer Science,Operating Systems,Assessment 3,79,100,2026-07-15,39.0,48,38
+S024,Kavya,10B,Chemistry,Thermodynamics,Assessment 9,58,100,2026-08-18,55.0,39,23
+S057,Tushar,10C,Computer Science,Computer Networks,Assessment 2,70,100,2026-07-09,58.0,38,27
+S044,Shivansh,10C,Computer Science,Data Structures,Assessment 4,64,100,2026-07-20,58.0,45,29
+S029,Shreya,10B,Chemistry,Organic Chemistry,Assessment 7,61,100,2026-08-07,42.0,47,29
+S040,Vihaan,10B,Computer Science,Operating Systems,Assessment 9,73,100,2026-08-18,56.0,44,32
+S044,Shivansh,10C,Mathematics,Probability,Assessment 7,68,100,2026-08-06,36.0,33,23
+S037,Manav,10B,Mathematics,Geometry,Assessment 3,82,100,2026-07-14,36.0,47,38
+S008,Kabir,10A,Mathematics,Geometry,Assessment 4,64,100,2026-07-20,42.0,50,32
+S004,Arjun,10A,Chemistry,Thermodynamics,Assessment 10,82,100,2026-08-24,54.0,39,32
+S016,Ananya,10A,Physics,Thermodynamics,Assessment 6,77,100,2026-08-01,52.0,39,30
+S022,Riya,10B,Mathematics,Algebra,Assessment 9,82,100,2026-08-18,56.0,50,41
+S038,Dhruv,10B,Physics,Current Electricity,Assessment 2,89,100,2026-07-07,55.0,33,29
+S022,Riya,10B,Chemistry,Organic Chemistry,Assessment 1,57,100,2026-07-02,52.0,31,18
+S024,Kavya,10B,Physics,Optics,Assessment 6,63,100,2026-08-02,34.0,42,27
+S055,Pranav,10C,Physics,Thermodynamics,Assessment 9,58,100,2026-08-20,34.0,45,26
+S007,Aryan,10A,Physics,Thermodynamics,Assessment 1,55,100,2026-07-03,25.0,43,23
+S031,Neha,10B,Chemistry,Organic Chemistry,Assessment 1,80,100,2026-07-01,55.0,49,39
+S026,Pooja,10B,Physics,Thermodynamics,Assessment 10,53,100,2026-08-24,37.0,31,16
+S029,Shreya,10B,Computer Science,,Assessment 1,83,100,2026-07-02,54.0,41,34
+S023,Sneha,10B,Chemistry,Organic Chemistry,Assessment 9,52,100,2026-08-19,43.0,42,22
+S002,Vivaan,10A,Chemistry,Organic Chemistry,Assessment 2,81,100,2026-07-09,42.0,47,38
+S059,Rajat,10C,Chemistry,Thermodynamics,Assessment 5,61,100,2026-07-27,48.0,46,28
+S009,Ishaan,10A,Chemistry,Inorganic Chemistry,Assessment 4,82,100,2026-07-20,42.0,42,35
+S010,Ansh,10A,Computer Science,DBMS,Assessment 1,83,100,2026-07-01,40.0,50,41
+S021,Priya,10B,Chemistry,Chemical Bonding,Assessment 9,53,100,2026-08-18,36.0,43,23
+S055,Pranav,10C,Computer Science,DBMS,Assessment 1,82,100,2026-07-02,47.0,42,34
+S034,Palak,10B,Mathematics,Algebra,Assessment 6,64,100,2026-08-01,41.0,44,28
+S008,Kabir,10A,Mathematics,Geometry,Assessment 10,61,100,2026-08-24,49.0,30,18
+S049,Aman,10C,Mathematics,Probability,Assessment 9,70,100,2026-08-18,32.0,33,23
+S015,Harsh,10A,Mathematics,Geometry,Assessment 1,84,100,2026-07-03,60.0,40,34
+S029,Shreya,10B,Mathematics,Algebra,Assessment 2,77,100,2026-07-07,58.0,45,35
+S027,Simran,10B,Chemistry,Organic Chemistry,Assessment 9,79,100,2026-08-18,48.0,42,33
+S042,Atharv,10C,Mathematics,Probability,Assessment 6,70,100,2026-08-01,48.0,42,29
+S020,Meera,10A,Chemistry,Organic Chemistry,Assessment 10,84,100,2026-08-24,50.0,48,40
+S036,Ayush,10B,Mathematics,Geometry,Assessment 3,64,100,2026-07-14,53.0,42,27
+S058,Deepak,10C,Mathematics,Probability,Assessment 9,80,100,2026-08-20,43.0,32,26
+S059,Rajat,10C,Mathematics,Calculus,Assessment 8,77,100,2026-08-14,50.0,31,24
+S060,Gaurav,10C,Chemistry,Inorganic Chemistry,Assessment 1,107,100,2026-07-03,47.0,45,38
+S041,Rudra,10C,Computer Science,Data Structures,Assessment 1,51,100,2026-07-03,29.0,37,19
+S035,Ritika,10B,Chemistry,Organic Chemistry,Assessment 1,74,100,2026-07-02,28.0,37,27
+S015,Harsh,10A,Physics,Mechanics,Assessment 9,85,100,2026-08-18,39.0,39,33
+S050,Nikhil,10C,Computer Science,Operating Systems,Assessment 7,89,100,2026-08-08,59.0,36,32
+S045,Mohit,10C,Computer Science,Computer Networks,Assessment 2,79,100,2026-07-09,56.0,44,35
+S015,Harsh,10A,Mathematics,Geometry,Assessment 6,89,100,2026-08-02,55.0,32,28
+S001,Aarav,10A,Computer Science,Data Structures,Assessment 10,88,100,2026-08-24,35.0,34,30
+S043,Parth,10C,Computer Science,Operating Systems,Assessment 7,50,100,2026-08-07,45.0,44,22
+S053,Sarthak,10C,Chemistry,Inorganic Chemistry,Assessment 6,72,100,2026-08-02,59.0,45,33
+S019,Isha,10A,Chemistry,Thermodynamics,Assessment 9,72,100,2026-08-20,57.0,44,32
+S014,Kunal,10A,Physics,Current Electricity,Assessment 2,71,100,2026-07-09,53.0,45,32
+S057,Tushar,10C,Chemistry,Thermodynamics,Assessment 10,74,100,2026-08-26,33.0,37,27
+S030,Tanya,10B,Mathematics,Geometry,Assessment 9,72,100,2026-08-20,56.0,39,28
+S059,Rajat,10C,Chemistry,Thermodynamics,Assessment 10,79,100,2026-08-25,37.0,31,24
+S049,Aman,10C,Mathematics,Probability,Assessment 9,70,100,2026-08-18,32.0,33,23
+S009,Ishaan,10A,Computer Science,Operating Systems,Assessment 5,84,100,2026-07-25,28.0,47,39
+S047,Abhishek,10C,Computer Science,DBMS,Assessment 9,82,100,2026-08-20,29.0,34,28
+S018,Aanya,10A,Physics,Current Electricity,Assessment 8,62,100,2026-08-14,28.0,30,19
+S016,Ananya,10A,Computer Science,DBMS,Assessment 4,72,100,2026-07-19,54.0,38,27
+S056,Lakshya,10C,Computer Science,Operating Systems,Assessment 3,77,100,2026-07-13,36.0,42,33
+S020,Meera,10A,Mathematics,Calculus,Assessment 7,71,100,2026-08-08,47.0,33,23
+S008,Kabir,10A,Chemistry,Chemical Bonding,Assessment 6,75,100,2026-08-01,39.0,34,25
+S010,Ansh,10A,Chemistry,Thermodynamics,Assessment 3,75,100,2026-07-15,46.0,46,34
+S030,Tanya,10B,Mathematics,Calculus,Assessment 7,68,100,2026-08-06,51.0,42,28
+S007,Aryan,10A,Physics,Mechanics,Assessment 9,76,100,2026-08-18,54.0,32,24
+S002,Vivaan,10A,Physics,Optics,Assessment 6,62,100,2026-08-01,44.0,41,25
+S021,Priya,10B,Computer Science,Computer Networks,Assessment 5,68,100,2026-07-26,32.0,46,31
+S016,Ananya,10A,Chemistry,Organic Chemistry,Assessment 9,71,100,2026-08-20,28.0,30,21
+S009,Ishaan,10A,Computer Science,Operating Systems,Assessment 9,81,100,2026-08-19,32.0,49,40
+S050,Nikhil,10C,Physics,Current Electricity,Assessment 10,89,100,2026-08-26,56.0,43,38
+S012,Dev,10A,Physics,Current Electricity,Assessment 8,83,100,2026-08-12,55.0,49,41
+S039,Ved,10B,Computer Science,Operating Systems,Assessment 4,85,100,2026-07-19,55.0,49,42
+S058,Deepak,10C,Physics,Thermodynamics,Assessment 10,77,100,2026-08-24,38.0,48,37
+S004,Arjun,10A,Mathematics,Calculus,Assessment 4,59,100,2026-07-20,59.0,31,18
+S001,Aarav,10A,Chemistry,Inorganic Chemistry,Assessment 1,80,100,2026-07-03,43.0,37,29
+S060,Gaurav,10C,Computer Science,DBMS,Assessment 7,80,100,2026-08-08,58.0,42,34
+S054,Akash,10C,Mathematics,Calculus,Assessment 4,60,100,2026-07-20,33.0,39,23
+S036,Ayush,10B,Chemistry,Organic Chemistry,Assessment 5,70,100,2026-07-25,58.0,42,29
+S034,Palak,10B,Computer Science,Computer Networks,Assessment 3,80,100,2026-07-13,27.0,39,31
+S046,Sahil,10C,Computer Science,DBMS,Assessment 8,87,100,2026-08-13,42.0,45,39
+S025,Nisha,10B,Chemistry,Organic Chemistry,Assessment 5,80,100,2026-07-26,48.0,46,37
+S003,Aditya,10A,Mathematics,Algebra,Assessment 3,76,100,2026-07-13,57.0,32,24
+S045,Mohit,10C,Mathematics,Algebra,Assessment 3,71,100,2026-07-15,43.0,37,26
+S012,Dev,10A,Mathematics,Probability,Assessment 7,80,100,2026-08-08,36.0,37,30
+S009,Ishaan,10A,Mathematics,Probability,Assessment 10,85,100,2026-08-24,49.0,39,33
+S056,Lakshya,10C,Chemistry,Thermodynamics,Assessment 4,70,100,2026-07-20,41.0,31,22
+S022,Riya,10B,Physics,Thermodynamics,Assessment 2,60,100,2026-07-07,52.0,48,29
+S002,Vivaan,10A,Mathematics,Probability,Assessment 9,62,100,2026-08-20,38.0,43,27
+S038,Dhruv,10B,Chemistry,Chemical Bonding,Assessment 5,88,100,2026-07-27,31.0,44,39
+S033,Anjali,10B,Chemistry,Chemical Bonding,Assessment 1,81,100,2026-07-03,,45,36
+S015,Harsh,10A,Chemistry,Organic Chemistry,Assessment 5,80,100,2026-07-26,25.0,44,35
+S029,Shreya,10B,Physics,Mechanics,Assessment 10,50,100,2026-08-24,41.0,50,25
+S028,Muskan,10B,Mathematics,Geometry,Assessment 5,83,100,2026-07-27,32.0,47,39
+S055,Pranav,10C,Physics,Optics,Assessment 4,78,100,2026-07-20,46.0,32,25
+S037,Manav,10B,Chemistry,Chemical Bonding,Assessment 2,82,100,2026-07-07,58.0,34,28
+S026,Pooja,10B,Mathematics,Geometry,Assessment 1,85,100,2026-07-03,29.0,44,37
+S029,Shreya,10B,Mathematics,Probability,Assessment 8,61,100,2026-08-14,35.0,46,28
+S054,Akash,10C,Chemistry,Organic Chemistry,Assessment 1,55,100,2026-07-02,31.0,42,23
+S055,Pranav,10C,Computer Science,Data Structures,Assessment 2,82,100,2026-07-08,39.0,48,39
+S017,Diya,10A,Computer Science,Operating Systems,Assessment 8,76,100,2026-08-14,49.0,38,29
+S006,Rahul,10A,Chemistry,Inorganic Chemistry,Assessment 5,66,100,2026-07-27,55.0,31,20
+S050,Nikhil,10C,Mathematics,Probability,Assessment 6,87,100,2026-08-02,40.0,49,43
+S005,Rohan,10A,Computer Science,Operating Systems,Assessment 7,60,100,2026-08-06,42.0,43,26
+S010,Ansh,10A,Physics,Thermodynamics,Assessment 4,69,100,2026-07-20,54.0,41,28
+S027,Simran,10B,Chemistry,Chemical Bonding,Assessment 5,67,100,2026-07-25,52.0,32,22
+S011,Krishna,10A,Physics,Optics,Assessment 9,81,100,2026-08-20,56.0,50,41
+S028,Muskan,10B,Chemistry,Thermodynamics,Assessment 3,85,100,2026-07-13,48.0,46,39
+S040,Vihaan,10B,Physics,Mechanics,Assessment 3,40,100,2026-07-13,55.0,48,19
+S049,Aman,10C,Mathematics,Probability,Assessment 2,73,100,2026-07-08,29.0,50,36
+S044,Shivansh,10C,Chemistry,Inorganic Chemistry,Assessment 8,73,100,2026-08-14,33.0,49,36
+S056,Lakshya,10C,Physics,Thermodynamics,Assessment 2,77,100,2026-07-07,55.0,42,32
+S039,Ved,10B,Physics,Mechanics,Assessment 2,79,100,2026-07-09,51.0,30,24
+S047,Abhishek,10C,Physics,Mechanics,Assessment 5,62,100,2026-07-25,33.0,32,20
+S040,Vihaan,10B,Computer Science,Data Structures,Assessment 6,69,100,2026-08-01,49.0,37,25
+S027,Simran,10B,Mathematics,Probability,Assessment 6,64,100,2026-08-01,43.0,40,26
+S049,Aman,10C,Chemistry,Thermodynamics,Assessment 3,77,100,2026-07-15,28.0,37,28
+S048,Varun,10C,Physics,Optics,Assessment 4,84,100,2026-07-19,37.0,46,39
+S007,Aryan,10A,Computer Science,DBMS,Assessment 10,69,100,2026-08-26,34.0,37,26
+S024,Kavya,10B,Computer Science,Operating Systems,Assessment 2,81,100,2026-07-07,30.0,46,37
+S041,Rudra,10C,Computer Science,Computer Networks,Assessment 5,66,100,2026-07-27,31.0,43,28
+S028,Muskan,10B,Physics,Optics,Assessment 9,88,100,2026-08-19,36.0,50,44
+S050,Nikhil,10C,Chemistry,Thermodynamics,Assessment 1,81,100,2026-07-01,60.0,31,25
+S036,Ayush,10B,Mathematics,Algebra,Assessment 1,52,100,2026-07-01,59.0,32,17
+S052,Vansh,10C,Mathematics,Algebra,Assessment 2,54,100,2026-07-08,32.0,34,18
+S015,Harsh,10A,Physics,Thermodynamics,Assessment 10,87,100,2026-08-24,53.0,33,29
+S013,Yash,10A,Chemistry,Organic Chemistry,Assessment 5,81,100,2026-07-25,26.0,48,39
+S043,Parth,10C,Computer Science,Computer Networks,Assessment 10,71,100,2026-08-24,52.0,35,25
+S047,Abhishek,10C,Physics,Mechanics,Assessment 8,73,100,2026-08-13,33.0,39,28
+S019,Isha,10A,Chemistry,Thermodynamics,Assessment 6,77,100,2026-08-02,55.0,31,24
+S023,Sneha,10B,Chemistry,Chemical Bonding,Assessment 8,74,100,2026-08-13,28.0,49,36
+S030,Tanya,10B,Chemistry,Chemical Bonding,Assessment 2,69,100,2026-07-08,44.0,42,29
+S025,Nisha,10B,Mathematics,Geometry,Assessment 8,85,100,2026-08-13,26.0,32,27
+S030,Tanya,10B,Mathematics,Geometry,Assessment 1,73,100,2026-07-03,59.0,45,33
+S025,Nisha,10B,Computer Science,Data Structures,Assessment 10,81,100,2026-08-25,28.0,33,27
+S045,Mohit,10C,Physics,Thermodynamics,Assessment 6,64,100,2026-08-02,31.0,43,28
+S037,Manav,10B,Mathematics,Probability,Assessment 8,82,100,2026-08-12,53.0,32,26
+S056,Lakshya,10C,Computer Science,Computer Networks,Assessment 5,67,100,2026-07-26,28.0,38,26
+S046,Sahil,10C,Physics,Thermodynamics,Assessment 7,86,100,2026-08-08,29.0,41,35
+S012,Dev,10A,Computer Science,Computer Networks,Assessment 5,82,100,2026-07-26,52.0,48,39
+S021,Priya,10B,Mathematics,Algebra,Assessment 4,69,100,2026-07-21,52.0,44,30
+S015,Harsh,10A,Computer Science,Computer Networks,Assessment 2,88,100,2026-07-08,49.0,37,32
+S034,Palak,10B,Physics,Current Electricity,Assessment 9,58,100,2026-08-18,25.0,37,21
+S001,Aarav,10A,Mathematics,Probability,Assessment 8,81,100,2026-08-12,59.0,47,38
+S053,Sarthak,10C,Physics,Current Electricity,Assessment 4,65,100,2026-07-21,47.0,42,27
+S002,Vivaan,10A,Mathematics,Probability,Assessment 10,60,100,2026-08-25,48.0,50,30
+S018,Aanya,10A,Computer Science,Computer Networks,Assessment 3,120,100,2026-07-14,51.0,47,37
+S046,Sahil,10C,Computer Science,DBMS,Assessment 4,85,100,2026-07-21,51.0,50,43
+S006,Rahul,10A,Physics,Current Electricity,Assessment 7,62,100,2026-08-07,42.0,32,20
+S031,Neha,10B,Chemistry,Organic Chemistry,Assessment 2,78,100,2026-07-07,48.0,38,30
+S034,Palak,10B,Mathematics,Algebra,Assessment 7,62,100,2026-08-08,37.0,39,24
+S046,Sahil,10C,Mathematics,Calculus,Assessment 3,86,100,2026-07-13,50.0,37,32
+S033,Anjali,10B,Physics,Thermodynamics,Assessment 3,87,100,2026-07-14,43.0,34,30
+S032,Sakshi,10B,Computer Science,Operating Systems,Assessment 1,85,100,2026-07-02,46.0,41,35
+S005,Rohan,10A,Physics,Mechanics,Assessment 10,59,100,2026-08-26,27.0,47,28
+S035,Ritika,10B,Computer Science,Computer Networks,Assessment 5,75,100,2026-07-27,40.0,36,27
+S003,Aditya,10A,Physics,Thermodynamics,Assessment 6,71,100,2026-08-01,28.0,44,31
+S045,Mohit,10C,Computer Science,Data Structures,Assessment 5,66,100,2026-99-99,48.0,47,31
+S023,Sneha,10B,Chemistry,Inorganic Chemistry,Assessment 1,49,100,2026-07-02,44.0,50,24
+S044,Shivansh,10C,Computer Science,Computer Networks,Assessment 2,58,100,2026-07-07,42.0,36,21
+S048,Varun,10C,Physics,Mechanics,Assessment 9,81,100,2026-08-19,50.0,31,25
+S005,Rohan,10A,Mathematics,Probability,Assessment 3,73,100,2026-07-14,44.0,47,34
+S051,Raj,10C,Computer Science,Operating Systems,Assessment 2,61,100,2026-07-08,31.0,32,19
+S027,Simran,10B,Chemistry,Organic Chemistry,Assessment 2,53,100,2026-07-09,28.0,41,22
+S041,Rudra,10C,Chemistry,Thermodynamics,Assessment 10,80,100,2026-08-25,48.0,32,26
+S028,Muskan,10B,Mathematics,Geometry,Assessment 8,87,100,2026-08-12,47.0,40,35
+S048,Varun,10C,Computer Science,Computer Networks,Assessment 1,80,100,2026-07-01,33.0,33,26
+S039,Ved,10B,Mathematics,Calculus,Assessment 3,86,100,2026-07-13,38.0,30,26
+S042,Atharv,10C,Computer Science,Operating Systems,Assessment 3,70,100,2026-07-14,33.0,50,35
+S016,Ananya,10A,Chemistry,Organic Chemistry,Assessment 5,76,100,2026-07-26,35.0,47,36
+S013,Yash,10A,Chemistry,Inorganic Chemistry,Assessment 7,83,100,2026-08-08,30.0,45,38
+S031,Neha,10B,Chemistry,Inorganic Chemistry,Assessment 10,60,100,2026-08-25,46.0,39,23
+S053,Sarthak,10C,Physics,Optics,Assessment 2,59,100,2026-07-07,58.0,45,27
+S045,Mohit,10C,Computer Science,Data Structures,Assessment 8,58,100,2026-08-12,47.0,48,28
+S018,Aanya,10A,Chemistry,Organic Chemistry,Assessment 5,69,100,2026-07-27,53.0,44,30
+S004,Arjun,10A,Physics,Current Electricity,Assessment 2,51,100,2026-07-08,41.0,42,21
+S012,Dev,10A,Physics,Thermodynamics,Assessment 4,85,100,2026-07-21,39.0,49,42
+S003,Aditya,10A,Mathematics,Probability,Assessment 4,72,100,2026-07-21,33.0,47,34
+S018,Aanya,10A,Mathematics,Geometry,Assessment 4,69,100,2026-07-21,51.0,45,31
+S056,Lakshya,10C,Mathematics,Calculus,Assessment 10,54,100,2026-08-24,37.0,43,23
+S007,Aryan,10A,Mathematics,Algebra,Assessment 7,79,100,2026-08-07,46.0,49,39
+S006,Rahul,10A,Chemistry,Thermodynamics,Assessment 8,66,100,2026-08-14,46.0,47,31
+S033,Anjali,10B,Computer Science,Operating Systems,Assessment 2,88,100,2026-07-09,43.0,38,34
+S023,Sneha,10B,Physics,Mechanics,Assessment 3,59,100,2026-07-14,57.0,32,19
+S002,Vivaan,10A,Computer Science,Data Structures,Assessment 8,64,100,2026-08-14,55.0,34,22
+S030,Tanya,10B,Physics,Mechanics,Assessment 10,72,100,2026-08-25,38.0,37,27
+S026,Pooja,10B,Physics,Thermodynamics,Assessment 6,62,100,2026-08-01,48.0,42,26
+S031,Neha,10B,Physics,Thermodynamics,Assessment 6,70,100,2026-08-01,60.0,40,28
+S058,Deepak,10C,Computer Science,Data Structures,Assessment 7,66,100,2026-08-08,56.0,41,27
+S020,Meera,10A,Computer Science,Computer Networks,Assessment 1,52,100,2026-07-01,50.0,44,23
+S032,Sakshi,10B,Mathematics,Geometry,Assessment 9,56,100,2026-08-20,41.0,41,23
+S053,Sarthak,10C,Physics,Current Electricity,Assessment 10,82,100,2026-08-26,32.0,34,28
+S028,Muskan,10B,Computer Science,Data Structures,Assessment 2,81,100,2026-07-09,48.0,44,35
+S010,Ansh,10A,Mathematics,Geometry,Assessment 5,72,100,2026-07-25,42.0,50,36
+S019,Isha,10A,Chemistry,Inorganic Chemistry,Assessment 1,72,100,2026-07-01,32.0,35,25
+S034,Palak,10B,Physics,Current Electricity,Assessment 2,83,100,2026-07-08,27.0,35,29
+S033,Anjali,10B,Mathematics,Algebra,Assessment 9,89,100,2026-08-20,51.0,35,31
+S032,Sakshi,10B,Physics,Thermodynamics,Assessment 2,77,100,2026-07-09,26.0,50,39
+S001,Aarav,10A,Computer Science,Operating Systems,Assessment 6,81,100,2026-07-31,45.0,48,39
+S005,Rohan,10A,Mathematics,Probability,Assessment 6,69,100,2026-07-31,57.0,38,26
+S040,Vihaan,10B,Mathematics,Probability,Assessment 10,76,100,2026-08-26,36.0,43,33
+S039,Ved,10B,Computer Science,Data Structures,Assessment 9,89,100,2026-08-19,40.0,44,39
+S039,Ved,10B,Computer Science,DBMS,Assessment 1,89,100,2026-07-03,58.0,31,28
+S002,Vivaan,10A,Mathematics,Algebra,Assessment 7,68,100,2026-08-06,30.0,32,22
+S005,Rohan,10A,Mathematics,Geometry,Assessment 9,60,100,2026-08-20,25.0,47,28
+S059,Rajat,10C,Physics,Current Electricity,Assessment 3,60,100,2026-07-14,42.0,39,23
+S058,Deepak,10C,Chemistry,Organic Chemistry,Assessment 3,62,100,2026-07-15,44.0,32,20
+S001,Aarav,10A,Mathematics,Calculus,Assessment 4,84,100,2026-07-19,60.0,38,32
+S046,Sahil,10C,Chemistry,Chemical Bonding,Assessment 1,85,100,2026-07-02,31.0,46,39
+S044,Shivansh,10C,Mathematics,Geometry,Assessment 10,76,100,not-a-date,53.0,40,31
+S037,Manav,10B,Computer Science,Computer Networks,Assessment 4,89,100,2026-07-19,49.0,50,44
+S044,Shivansh,10C,Chemistry,Thermodynamics,Assessment 5,64,100,2026-07-27,47.0,33,21
+S031,Neha,10B,Computer Science,Operating Systems,Assessment 3,75,100,2026-07-13,60.0,48,36
+S023,Sneha,10B,Physics,Optics,Assessment 6,50,100,2026-08-02,27.0,35,18
+S003,Aditya,10A,Physics,Mechanics,Assessment 7,74,100,2026-08-07,40.0,33,25
+S043,Parth,10C,Physics,Current Electricity,Assessment 6,62,100,2026-08-01,58.0,36,22
+S027,Simran,10B,Computer Science,Computer Networks,Assessment 4,67,100,2026-07-20,56.0,45,30
+S006,Rahul,10A,Chemistry,Inorganic Chemistry,Assessment 1,78,100,2026-07-02,48.0,39,31
+S023,Sneha,10B,Chemistry,Inorganic Chemistry,Assessment 10,51,100,2026-08-25,47.0,34,17
+S004,Arjun,10A,Physics,Mechanics,Assessment 8,76,100,2026-08-13,58.0,48,36
+S016,Ananya,10A,Physics,Current Electricity,Assessment 8,73,100,2026-08-13,43.0,48,35
+S024,Kavya,10B,Physics,Thermodynamics,Assessment 8,63,100,2026-08-13,53.0,37,23
+S058,Deepak,10C,Computer Science,DBMS,Assessment 8,75,100,2026-08-13,47.0,41,31
+S018,Aanya,10A,Mathematics,Probability,Assessment 6,72,100,2026-07-31,59.0,41,29
+S051,Raj,10C,Physics,Current Electricity,Assessment 1,51,100,2026-07-03,39.0,31,16
+S043,Parth,10C,Computer Science,Computer Networks,Assessment 1,50,100,2026-07-03,59.0,41,20
+S020,Meera,10A,Physics,Optics,Assessment 5,61,100,2026-07-27,52.0,41,25
+S056,Lakshya,10C,Mathematics,Algebra,Assessment 1,79,100,2026-07-01,43.0,50,40
+S059,Rajat,10C,Physics,Mechanics,Assessment 2,60,100,2026-07-08,36.0,50,30
+S052,Vansh,10C,Physics,Optics,Assessment 4,51,100,2026-07-19,53.0,36,18
+S007,Aryan,10A,Physics,Current Electricity,Assessment 8,61,100,2026-08-14,34.0,36,22
+S032,Sakshi,10B,Computer Science,DBMS,Assessment 10,53,100,2026-08-24,39.0,39,21
+S017,Diya,10A,Chemistry,Organic Chemistry,Assessment 9,74,100,2026-08-20,60.0,30,22
+S037,Manav,10B,Chemistry,Organic Chemistry,Assessment 9,86,100,2026-08-20,28.0,36,31
+S017,Diya,10A,Physics,Optics,Assessment 3,109,100,2026-07-14,37.0,35,22
+S020,Meera,10A,Computer Science,Data Structures,Assessment 4,64,100,2026-07-21,60.0,34,22
+S016,Ananya,10A,Mathematics,Calculus,Assessment 3,68,100,2026-07-13,40.0,42,28
+S051,Raj,10C,Mathematics,Calculus,Assessment 4,60,100,2026-07-20,50.0,40,24
+S035,Ritika,10B,Physics,Current Electricity,Assessment 7,72,100,2026-08-08,45.0,35,25
+S049,Aman,10C,Physics,Thermodynamics,Assessment 8,72,100,2026-08-13,56.0,31,22
+S034,Palak,10B,Physics,Optics,Assessment 4,74,100,2026-07-21,43.0,40,30
+S011,Krishna,10A,Chemistry,Chemical Bonding,Assessment 4,62,100,2026-07-21,41.0,39,24
+S052,Vansh,10C,Mathematics,Geometry,Assessment 6,70,100,2026-08-02,52.0,42,29
+S008,Kabir,10A,Computer Science,DBMS,Assessment 5,69,100,2026-07-26,40.0,39,27
+S043,Parth,10C,Mathematics,Geometry,Assessment 4,70,100,2026-07-20,57.0,48,33
+S059,Rajat,10C,Mathematics,Calculus,Assessment 1,50,100,2026-07-03,51.0,50,25
+S012,Dev,10A,Physics,Current Electricity,Assessment 10,87,100,2026-08-25,37.0,50,43
+S057,Tushar,10C,Physics,Mechanics,Assessment 5,76,100,2026-07-26,51.0,41,31
+S052,Vansh,10C,Mathematics,Algebra,Assessment 5,47,100,2026-07-26,28.0,44,21
+S049,Aman,10C,Mathematics,Algebra,Assessment 4,42,100,2026-07-20,44.0,31,13
+S021,Priya,10B,Physics,Current Electricity,Assessment 8,65,100,2026-08-13,41.0,34,22
+S034,Palak,10B,Computer Science,Computer Networks,Assessment 5,74,100,2026-07-25,42.0,44,32
+S036,Ayush,10B,Computer Science,Computer Networks,Assessment 4,64,100,2026-07-19,33.0,47,30
+S035,Ritika,10B,Physics,Thermodynamics,Assessment 2,69,100,2026-07-08,44.0,46,32
+S041,Rudra,10C,Physics,Mechanics,Assessment 6,69,100,2026-08-01,45.0,49,34
+S001,Aarav,10A,Chemistry,Thermodynamics,Assessment 9,83,100,2026-08-20,33.0,37,31
+S052,Vansh,10C,Physics,Mechanics,Assessment 3,50,100,2026-07-13,48.0,42,21
+S004,Arjun,10A,Physics,Current Electricity,Assessment 7,67,100,2026-08-07,40.0,48,32
+S014,Kunal,10A,Chemistry,Organic Chemistry,Assessment 10,46,100,2026-08-25,56.0,48,22
+S026,Pooja,10B,Mathematics,Geometry,Assessment 4,75,100,2026-07-19,58.0,32,24
+S031,Neha,10B,Mathematics,Probability,Assessment 4,71,100,2026-07-21,57.0,42,30
+S040,Vihaan,10B,Physics,Thermodynamics,Assessment 1,71,100,2026-07-02,28.0,45,32
+S006,Rahul,10A,Physics,Thermodynamics,Assessment 10,57,100,2026-08-25,,40,23
+S012,Dev,10A,Physics,Thermodynamics,Assessment 2,80,100,2026-07-08,28.0,50,40
+S037,Manav,10B,Chemistry,Thermodynamics,Assessment 5,80,100,2026-07-26,36.0,42,34
+S036,Ayush,10B,Mathematics,Calculus,Assessment 6,71,100,2026-07-31,54.0,39,28
+S027,Simran,10B,Chemistry,Chemical Bonding,Assessment 3,62,100,2026-07-13,50.0,43,27
+S050,Nikhil,10C,Chemistry,Chemical Bonding,Assessment 5,85,100,2026-07-25,48.0,30,25
+S030,Tanya,10B,Mathematics,Calculus,Assessment 8,76,100,2026-08-13,37.0,40,31
+S016,Ananya,10A,Mathematics,Probability,Assessment 1,67,100,2026-07-01,43.0,31,21
+S027,Simran,10B,Chemistry,Thermodynamics,Assessment 7,73,100,2026-08-08,53.0,35,26
+S053,Sarthak,10C,Chemistry,Inorganic Chemistry,Assessment 3,55,100,2026-07-13,42.0,37,20
+S054,Akash,10C,Computer Science,Operating Systems,Assessment 3,61,100,2026-07-13,47.0,47,29
+S004,Arjun,10A,Chemistry,Chemical Bonding,Assessment 9,79,100,2026-08-18,40.0,40,43
+S044,Shivansh,10C,Physics,Mechanics,Assessment 3,56,100,2026-07-15,37.0,40,22
+S031,Neha,10B,Physics,Mechanics,Assessment 8,57,100,2026-08-12,55.0,40,23
+S020,Meera,10A,Physics,Optics,Assessment 9,74,100,2026-08-18,46.0,39,29
+S060,Gaurav,10C,Computer Science,Data Structures,Assessment 6,85,100,2026-08-02,29.0,49,42
+S036,Ayush,10B,Computer Science,Computer Networks,Assessment 7,68,100,2026-08-06,34.0,41,28
+S015,Harsh,10A,Chemistry,Chemical Bonding,Assessment 7,86,100,2026-08-08,30.0,50,43
+S048,Varun,10C,Mathematics,Probability,Assessment 3,80,100,2026-07-15,43.0,47,38
+S054,Akash,10C,Mathematics,Algebra,Assessment 5,69,100,2026-07-27,27.0,42,29
+S015,Harsh,10A,Chemistry,Thermodynamics,Assessment 8,85,100,2026-08-13,59.0,45,38
+S043,Parth,10C,Physics,Mechanics,Assessment 2,64,100,2026-07-07,27.0,49,31
+S035,Ritika,10B,Computer Science,Data Structures,Assessment 9,44,100,2026-08-19,28.0,48,21
+S033,Anjali,10B,Chemistry,Inorganic Chemistry,Assessment 6,85,100,2026-07-31,40.0,48,41
+S058,Deepak,10C,Mathematics,Geometry,Assessment 2,60,100,2026-07-07,56.0,43,26
+S013,Yash,10A,Computer Science,Computer Networks,Assessment 4,85,100,2026-07-19,45.0,43,37
+S057,Tushar,10C,Chemistry,Chemical Bonding,Assessment 9,70,100,2026-08-18,44.0,39,27
+S010,Ansh,10A,Chemistry,Inorganic Chemistry,Assessment 7,62,100,2026-08-06,40.0,44,27
+S015,Harsh,10A,Computer Science,DBMS,Assessment 4,89,100,2026-07-20,57.0,34,30
+S024,Kavya,10B,Mathematics,Probability,Assessment 10,59,100,2026-08-26,54.0,44,26
+S038,Dhruv,10B,Chemistry,Inorganic Chemistry,Assessment 8,82,100,2026-08-12,40.0,42,35
+S010,Ansh,10A,Computer Science,Computer Networks,Assessment 8,56,100,2026-08-13,36.0,40,23
+S033,Anjali,10B,Computer Science,DBMS,Assessment 5,87,100,2026-07-25,60.0,38,33
+S028,Muskan,10B,Chemistry,Inorganic Chemistry,Assessment 10,89,100,2026-08-24,40.0,34,30
+S030,Tanya,10B,Computer Science,Computer Networks,Assessment 4,70,100,2026-07-19,45.0,34,24
+S048,Varun,10C,Chemistry,Thermodynamics,Assessment 10,86,100,2026-08-25,59.0,32,28
+S013,Yash,10A,Computer Science,Data Structures,Assessment 3,86,100,2026-07-14,42.0,42,36
+S019,Isha,10A,Physics,Mechanics,Assessment 4,71,100,2026-07-20,57.0,41,29
+S021,Priya,10B,Chemistry,Chemical Bonding,Assessment 3,77,100,2026-07-15,34.0,31,24
+S033,Anjali,10B,Physics,Optics,Assessment 4,80,100,2026-07-21,41.0,44,35
+S025,Nisha,10B,Physics,Optics,Assessment 7,80,100,2026-08-06,55.0,39,31
+S042,Atharv,10C,Mathematics,Geometry,Assessment 10,68,100,2026-08-25,55.0,49,33
+S041,Rudra,10C,Mathematics,Calculus,Assessment 8,73,100,2026-08-14,42.0,34,25
+S049,Aman,10C,Mathematics,Probability,Assessment 1,70,100,2026-07-01,38.0,46,32
+S042,Atharv,10C,Computer Science,Data Structures,Assessment 2,70,100,2026-07-07,46.0,42,29
+S054,Akash,10C,Chemistry,Chemical Bonding,Assessment 2,52,100,2026-07-08,52.0,35,18
+S055,Pranav,10C,Mathematics,Geometry,Assessment 5,72,100,2026-07-25,30.0,47,34
+S013,Yash,10A,Chemistry,Organic Chemistry,Assessment 6,84,100,2026-07-31,53.0,50,42
+S042,Atharv,10C,Chemistry,Inorganic Chemistry,Assessment 5,77,100,2026-07-26,56.0,39,30
+S023,Sneha,10B,Computer Science,Computer Networks,Assessment 4,85,100,2026-07-21,53.0,31,26
+S035,Ritika,10B,Physics,Optics,Assessment 3,73,100,2026-07-14,33.0,37,27
+S006,Rahul,10A,Physics,Current Electricity,Assessment 4,77,100,2026-07-21,40.0,43,33
+S022,Riya,10B,Computer Science,Computer Networks,Assessment 10,84,100,2026-08-26,45.0,48,40
+S013,Yash,10A,Physics,Thermodynamics,Assessment 10,82,100,2026-08-24,32.0,40,33
+S055,Pranav,10C,Chemistry,Thermodynamics,Assessment 6,62,100,2026-08-02,35.0,50,31
+S040,Vihaan,10B,Physics,Current Electricity,Assessment 5,67,100,2026-07-26,34.0,36,24
+S045,Mohit,10C,Physics,Optics,Assessment 10,53,100,2026-08-26,35.0,47,25
+S055,Pranav,10C,Computer Science,Operating Systems,Assessment 8,59,100,2026-08-14,31.0,37,22
+S040,Vihaan,10B,Chemistry,Thermodynamics,Assessment 7,68,100,2026-08-08,57.0,32,22
+S049,Aman,10C,Physics,Optics,Assessment 7,70,100,2026-08-07,41.0,32,22
+S041,Rudra,10C,Computer Science,Operating Systems,Assessment 4,58,100,2026-07-20,36.0,32,19
+S039,Ved,10B,Computer Science,DBMS,Assessment 7,88,100,2026-08-06,34.0,46,41
+S059,Rajat,10C,Computer Science,Computer Networks,Assessment 4,62,100,2026-07-20,54.0,36,22
+S030,Tanya,10B,Chemistry,Chemical Bonding,Assessment 5,68,100,2026-07-26,57.0,41,28
+S051,Raj,10C,Mathematics,Geometry,Assessment 3,60,100,2026-07-13,52.0,31,19
+S047,Abhishek,10C,Physics,Thermodynamics,Assessment 4,60,100,2026-07-21,52.0,37,22
+S042,Atharv,10C,Physics,Current Electricity,Assessment 7,77,100,2026-08-08,60.0,35,27
+S012,Dev,10A,Mathematics,Calculus,Assessment 3,88,100,2026-07-15,40.0,32,28
+S018,Aanya,10A,Mathematics,Calculus,Assessment 10,53,100,2026-08-24,25.0,34,18
+S043,Parth,10C,Computer Science,Operating Systems,Assessment 3,46,100,2026-07-14,39.0,38,18
+S047,Abhishek,10C,Chemistry,,Assessment 3,58,100,2026-07-13,35.0,50,29
+S046,Sahil,10C,Mathematics,Geometry,Assessment 2,89,100,2026-07-07,33.0,50,44
+S038,Dhruv,10B,Chemistry,Thermodynamics,Assessment 4,84,100,2026-07-20,44.0,41,35
+S032,Sakshi,10B,Mathematics,Calculus,Assessment 5,71,100,2026-07-25,37.0,33,23
+S016,Ananya,10A,Chemistry,Chemical Bonding,Assessment 2,68,100,2026-07-08,51.0,46,31
+S050,Nikhil,10C,Mathematics,Algebra,Assessment 4,80,100,2026-07-20,43.0,44,35
+S024,Kavya,10B,Chemistry,Thermodynamics,Assessment 4,70,100,2026-07-19,34.0,34,24
+S031,Neha,10B,Chemistry,Inorganic Chemistry,Assessment 7,65,100,2026-08-06,57.0,42,27
+S043,Parth,10C,Mathematics,Calculus,Assessment 9,57,100,2026-08-20,60.0,40,23
+S017,Diya,10A,Chemistry,Thermodynamics,Assessment 5,67,100,2026-07-26,32.0,40,27
+S032,Sakshi,10B,Mathematics,Probability,Assessment 8,61,100,2026-08-14,45.0,42,26
+S014,Kunal,10A,Computer Science,Operating Systems,Assessment 7,74,100,2026-08-08,55.0,43,32
+S042,Atharv,10C,Chemistry,Inorganic Chemistry,Assessment 1,73,100,2026-07-03,37.0,49,36
+S020,Meera,10A,Chemistry,Organic Chemistry,Assessment 8,75,100,2026-08-13,60.0,43,32
+S048,Varun,10C,Chemistry,Inorganic Chemistry,Assessment 8,89,100,2026-08-13,26.0,32,28
+S026,Pooja,10B,Mathematics,Geometry,Assessment 9,58,100,2026-08-20,33.0,35,20
+S024,Kavya,10B,Computer Science,Operating Systems,Assessment 3,75,100,2026-07-13,38.0,35,26
+S012,Dev,10A,Chemistry,Organic Chemistry,Assessment 6,89,100,2026-08-02,38.0,33,29
+S013,Yash,10A,Computer Science,Data Structures,Assessment 1,81,100,2026-07-03,42.0,34,28
+S055,Pranav,10C,Mathematics,Geometry,Assessment 3,79,100,2026-07-13,43.0,31,24
+S038,Dhruv,10B,Mathematics,Calculus,Assessment 7,82,100,2026-08-06,51.0,48,39
+S039,Ved,10B,Computer Science,Data Structures,Assessment 5,84,100,2026-07-25,25.0,43,36
+S023,Sneha,10B,Mathematics,Probability,Assessment 5,75,100,2026-07-27,53.0,31,23
+S058,Deepak,10C,Chemistry,Thermodynamics,Assessment 1,51,100,2026-07-02,30.0,43,22
+S060,Gaurav,10C,Physics,Thermodynamics,Assessment 3,86,100,2026-07-13,36.0,47,41
+S035,Ritika,10B,Computer Science,Data Structures,Assessment 8,43,100,2026-08-14,57.0,32,14
+S013,Yash,10A,Computer Science,Operating Systems,Assessment 8,82,100,2026-08-13,35.0,33,27
+S060,Gaurav,10C,Chemistry,Organic Chemistry,Assessment 4,83,100,2026-07-19,51.0,39,32
+S029,Shreya,10B,Mathematics,Probability,Assessment 6,64,100,2026-07-31,47.0,37,24
+S056,Lakshya,10C,Mathematics,Algebra,Assessment 6,69,100,2026-07-31,51.0,47,32
+S005,Rohan,10A,Physics,Optics,Assessment 4,69,100,2026-07-21,41.0,34,23
+S011,Krishna,10A,Chemistry,Organic Chemistry,Assessment 8,74,100,2026-08-14,27.0,38,28
+S051,Raj,10C,Chemistry,Thermodynamics,Assessment 7,71,100,2026-08-06,53.0,36,26
+S045,Mohit,10C,Mathematics,Probability,Assessment 7,63,100,2026-08-06,30.0,41,26
+S014,Kunal,10A,Computer Science,Data Structures,Assessment 4,77,100,2026-07-19,40.0,49,38
+S045,Mohit,10C,Physics,Optics,Assessment 1,82,100,2026-07-01,49.0,36,29
+S050,Nikhil,10C,Mathematics,Calculus,Assessment 8,88,100,2026-08-12,39.0,30,26
+S005,Rohan,10A,Physics,Mechanics,Assessment 5,71,100,2026-07-27,43.0,38,27
+S017,Diya,10A,Chemistry,Inorganic Chemistry,Assessment 10,76,100,2026-08-26,44.0,44,33
+S007,Aryan,10A,Chemistry,Thermodynamics,Assessment 6,75,100,2026-08-01,55.0,46,34
+S029,Shreya,10B,Computer Science,Computer Networks,Assessment 4,73,100,2026-07-21,60.0,34,25
+S009,Ishaan,10A,Chemistry,Inorganic Chemistry,Assessment 6,80,100,2026-08-02,27.0,50,40
+S025,Nisha,10B,Physics,Mechanics,Assessment 3,80,100,2026-07-14,42.0,35,28
+S019,Isha,10A,Computer Science,Computer Networks,Assessment 7,68,100,2026-08-08,29.0,44,30
+S033,Anjali,10B,Mathematics,Algebra,Assessment 7,88,100,2026-08-08,39.0,37,33
+S016,Ananya,10A,Computer Science,Operating Systems,Assessment 10,73,100,2026-08-24,39.0,41,30
+S002,Vivaan,10A,Chemistry,Organic Chemistry,Assessment 3,75,100,2026-07-14,25.0,44,33
+S004,Arjun,10A,Mathematics,Algebra,Assessment 6,64,100,2026-08-02,29.0,35,22
+S003,Aditya,10A,Chemistry,Thermodynamics,Assessment 9,76,100,2026-08-18,53.0,32,24
+S018,Aanya,10A,Computer Science,Data Structures,Assessment 1,77,100,2026-07-01,44.0,31,24
+S015,Harsh,10A,Mathematics,Geometry,Assessment 3,82,100,2026-07-13,49.0,45,37
+S024,Kavya,10B,Mathematics,Calculus,Assessment 7,67,100,2026-08-08,53.0,35,23
+S047,Abhishek,10C,Mathematics,Geometry,Assessment 6,63,100,2026-07-31,32.0,40,25
+S052,Vansh,10C,Mathematics,Probability,Assessment 7,54,100,2026-08-06,34.0,44,24
+S023,Sneha,10B,Chemistry,Organic Chemistry,Assessment 2,73,100,2026-07-08,53.0,44,32
+S055,Pranav,10C,Computer Science,DBMS,Assessment 7,60,100,2026-08-06,37.0,36,37
+S010,Ansh,10A,Computer Science,Computer Networks,Assessment 6,70,100,2026-08-01,42.0,48,34
+S006,Rahul,10A,Physics,Optics,Assessment 2,81,100,2026-07-07,47.0,33,27
+S025,Nisha,10B,Chemistry,Thermodynamics,Assessment 1,84,100,2026-07-03,37.0,35,29
+S051,Raj,10C,Physics,Current Electricity,Assessment 10,79,100,2026-08-25,44.0,31,24
+S036,Ayush,10B,Physics,Mechanics,Assessment 2,51,100,2026-07-08,36.0,43,22
+S052,Vansh,10C,Physics,Mechanics,Assessment 9,65,100,2026-08-19,58.0,36,24
+S018,Aanya,10A,Chemistry,Inorganic Chemistry,Assessment 9,61,100,2026-08-18,29.0,36,22
+S047,Abhishek,10C,Physics,Current Electricity,Assessment 1,53,100,2026-07-02,37.0,43,23
+S053,Sarthak,10C,Mathematics,Probability,Assessment 9,74,100,2026-08-20,28.0,40,30
+S005,Rohan,10A,Physics,Current Electricity,Assessment 2,77,100,2026-07-09,29.0,41,31
+S056,Lakshya,10C,Mathematics,Algebra,Assessment 7,67,100,2026-08-07,59.0,43,29
+S053,Sarthak,10C,Mathematics,Calculus,Assessment 5,66,100,2026-07-25,26.0,41,27
+S021,Priya,10B,Chemistry,Organic Chemistry,Assessment 7,63,100,2026-08-06,28.0,49,31
+S040,Vihaan,10B,Physics,Mechanics,Assessment 3,40,100,2026-07-13,55.0,48,19
+S029,Shreya,10B,Computer Science,Computer Networks,Assessment 3,72,100,2026-07-15,29.0,40,29
+S036,Ayush,10B,Physics,Current Electricity,Assessment 9,73,100,2026-08-18,27.0,49,36
+S040,Vihaan,10B,Chemistry,Organic Chemistry,Assessment 8,71,100,2026-08-12,46.0,32,23
+S026,Pooja,10B,Chemistry,Organic Chemistry,Assessment 5,70,100,2026-07-27,60.0,46,32
+S022,Riya,10B,Mathematics,Calculus,Assessment 8,70,100,2026-08-12,36.0,36,25
+S001,Aarav,10A,Mathematics,Probability,Assessment 5,81,100,2026-07-25,,31,33
+S026,Pooja,10B,Chemistry,Organic Chemistry,Assessment 7,67,100,2026-08-07,40.0,41,27
+S057,Tushar,10C,Chemistry,Thermodynamics,Assessment 6,72,100,2026-08-02,55.0,49,35
+S054,Akash,10C,Mathematics,Probability,Assessment 6,65,100,2026-08-02,31.0,48,31
+S044,Shivansh,10C,Computer Science,Data Structures,Assessment 1,54,100,2026-07-03,53.0,36,19
+S011,Krishna,10A,Computer Science,Computer Networks,Assessment 1,56,100,2026-07-03,56.0,45,25
+S023,Sneha,10B,Mathematics,Geometry,Assessment 7,78,100,2026-08-07,48.0,35,27
+S045,Mohit,10C,Computer Science,DBMS,Assessment 9,54,100,2026-08-20,38.0,36,20
+S055,Pranav,10C,Physics,Optics,Assessment 10,54,100,2026-08-24,55.0,39,21
+S058,Deepak,10C,Mathematics,Calculus,Assessment 5,62,100,2026-07-25,28.0,44,27
+S022,Riya,10B,Mathematics,Geometry,Assessment 4,66,100,2026-07-21,52.0,32,21
+S036,Ayush,10B,Computer Science,Data Structures,Assessment 10,82,100,2026-08-24,53.0,42,35
+S018,Aanya,10A,Computer Science,Data Structures,Assessment 2,76,100,2026-07-07,33.0,47,36
+S010,Ansh,10A,Computer Science,DBMS,Assessment 9,61,100,2026-08-19,42.0,40,24
+S030,Tanya,10B,Computer Science,Data Structures,Assessment 3,68,100,2026-07-15,51.0,44,30
+S022,Riya,10B,Computer Science,Operating Systems,Assessment 6,66,100,2026-08-02,35.0,40,27
+S007,Aryan,10A,Mathematics,Probability,Assessment 2,53,100,2026-07-08,45.0,40,21
+S041,Rudra,10C,Computer Science,Data Structures,Assessment 7,70,100,2026-08-07,60.0,32,22
+S005,Rohan,10A,Physics,Mechanics,Assessment 8,64,100,2026-08-13,41.0,50,32
+S004,Arjun,10A,Computer Science,Operating Systems,Assessment 3,61,100,2026-07-14,56.0,47,29
+S042,Atharv,10C,Physics,Thermodynamics,Assessment 8,69,100,2026-08-14,29.0,39,27
+S027,Simran,10B,Chemistry,Thermodynamics,Assessment 8,76,100,2026-08-12,52.0,41,31
+S033,Anjali,10B,Physics,Mechanics,Assessment 8,82,100,2026-08-13,31.0,45,37
+S021,Priya,10B,Physics,Current Electricity,Assessment 1,83,100,2026-07-03,30.0,30,25
+S014,Kunal,10A,Mathematics,Probability,Assessment 5,67,100,2026-07-27,30.0,43,29
+S003,Aditya,10A,Mathematics,Calculus,Assessment 8,71,100,2026-08-14,36.0,43,31
+S053,Sarthak,10C,Chemistry,Inorganic Chemistry,Assessment 7,66,100,2026-08-07,39.0,31,21
+S051,Raj,10C,Mathematics,Algebra,Assessment 6,64,100,2026-07-31,54.0,44,28
+S024,Kavya,10B,Chemistry,Thermodynamics,Assessment 1,83,100,2026-07-01,44.0,32,27
+S049,Aman,10C,Mathematics,Algebra,Assessment 10,55,100,2026-08-24,55.0,31,17
+S027,Simran,10B,Physics,Optics,Assessment 1,53,100,2026-07-02,55.0,47,25
+S038,Dhruv,10B,Computer Science,Operating Systems,Assessment 9,87,100,2026-08-19,56.0,45,39
+S029,Shreya,10B,Mathematics,Calculus,Assessment 9,59,100,2026-08-20,46.0,49,29
+S042,Atharv,10C,Computer Science,Computer Networks,Assessment 9,73,100,2026-08-18,41.0,37,27
+S040,Vihaan,10B,Physics,Current Electricity,Assessment 2,72,100,2026-07-07,46.0,43,31
+S050,Nikhil,10C,Chemistry,Organic Chemistry,Assessment 9,79,100,2026-08-19,44.0,42,33
+S014,Kunal,10A,Mathematics,Algebra,Assessment 9,75,100,2026-08-19,46.0,43,32
+S007,Aryan,10A,Physics,Optics,Assessment 3,66,100,2026-07-15,50.0,40,26
+S048,Varun,10C,Physics,Thermodynamics,Assessment 2,89,100,2026-07-08,33.0,40,35
+S013,Yash,10A,Chemistry,Thermodynamics,Assessment 9,84,100,2026-08-20,60.0,42,35
+S059,Rajat,10C,Chemistry,Chemical Bonding,Assessment 7,69,100,2026-08-07,44.0,50,34
+S053,Sarthak,10C,Chemistry,Thermodynamics,Assessment 1,50,100,2026-07-02,39.0,40,20
+S007,Aryan,10A,Chemistry,Thermodynamics,Assessment 5,43,100,2026-07-27,52.0,36,15
+S002,Vivaan,10A,Mathematics,Calculus,Assessment 5,73,100,2026-07-26,58.0,47,34
+S016,Ananya,10A,Chemistry,Thermodynamics,Assessment 7,69,100,2026-08-07,55.0,42,29
+S005,Rohan,10A,Chemistry,Organic Chemistry,Assessment 1,82,100,2026-07-01,31.0,48,39
+S050,Nikhil,10C,Physics,Optics,Assessment 3,84,100,2026-07-13,36.0,31,26
+S038,Dhruv,10B,Computer Science,DBMS,Assessment 10,87,100,2026-08-26,33.0,35,30
+S019,Isha,10A,Physics,Optics,Assessment 8,68,100,2026-08-14,42.0,34,23
+S022,Riya,10B,Physics,Mechanics,Assessment 7,71,100,2026-08-08,47.0,41,29
+S006,Rahul,10A,Computer Science,DBMS,Assessment 3,80,100,2026-07-13,51.0,35,28
+S034,Palak,10B,Mathematics,Geometry,Assessment 8,61,100,2026-08-13,50.0,32,20
+S030,Tanya,10B,Physics,Optics,Assessment 6,72,100,2026-07-31,53.0,38,27
+S026,Pooja,10B,Physics,Thermodynamics,Assessment 2,79,100,2026-07-09,57.0,50,40
+S047,Abhishek,10C,Mathematics,Probability,Assessment 2,60,100,2026-07-07,30.0,38,23
+S046,Sahil,10C,Chemistry,Chemical Bonding,Assessment 6,89,100,2026-08-01,25.0,40,35
+S044,Shivansh,10C,Mathematics,Geometry,Assessment 10,76,100,not-a-date,53.0,40,31
+S027,Simran,10B,Mathematics,Algebra,Assessment 10,83,100,2026-08-24,27.0,44,37
+S021,Priya,10B,Mathematics,Geometry,Assessment 2,79,100,2026-07-08,48.0,35,27
+S017,Diya,10A,Physics,Optics,Assessment 2,51,100,2026-07-08,33.0,41,21
+S041,Rudra,10C,Physics,Optics,Assessment 2,55,100,2026-07-07,34.0,50,27
+S048,Varun,10C,Physics,Optics,Assessment 7,80,100,2026-08-07,51.0,48,39
+S011,Krishna,10A,Mathematics,Calculus,Assessment 6,70,100,2026-07-31,58.0,38,27
+S039,Ved,10B,Mathematics,Probability,Assessment 10,87,100,2026-08-26,27.0,32,28
+S001,Aarav,10A,Physics,Current Electricity,Assessment 2,83,100,2026-07-07,48.0,44,36
+S058,Deepak,10C,Chemistry,Inorganic Chemistry,Assessment 6,67,100,2026-08-01,57.0,44,29
+S009,Ishaan,10A,Chemistry,Thermodynamics,Assessment 1,81,100,2026-07-03,33.0,44,35
+S021,Priya,10B,Chemistry,Thermodynamics,Assessment 6,65,100,2026-07-31,56.0,48,31
+S004,Arjun,10A,Physics,Optics,Assessment 5,61,100,2026-07-25,57.0,45,27
+S051,Raj,10C,Chemistry,Organic Chemistry,Assessment 9,80,100,2026-08-18,34.0,40,32
+S043,Parth,10C,Physics,Optics,Assessment 8,47,100,2026-08-12,31.0,40,19
+S046,Sahil,10C,Computer Science,Computer Networks,Assessment 5,85,100,2026-07-25,50.0,32,27
+S037,Manav,10B,Physics,Thermodynamics,Assessment 7,85,100,2026-08-07,49.0,34,29
+S010,Ansh,10A,Physics,Optics,Assessment 2,80,100,2026-07-09,27.0,33,26
+S034,Palak,10B,Chemistry,Thermodynamics,Assessment 10,54,100,2026-08-24,46.0,38,21
+S035,Ritika,10B,Physics,Thermodynamics,Assessment 6,74,100,2026-08-02,32.0,32,24
+S025,Nisha,10B,Mathematics,Probability,Assessment 2,85,100,2026-07-07,60.0,41,35
+S002,Vivaan,10A,Chemistry,Inorganic Chemistry,Assessment 4,77,100,2026-07-21,44.0,50,39
+S032,Sakshi,10B,Physics,Thermodynamics,Assessment 6,66,100,2026-08-01,38.0,43,28
+S039,Ved,10B,Mathematics,Calculus,Assessment 8,84,100,2026-08-14,42.0,41,35
+S028,Muskan,10B,Computer Science,Operating Systems,Assessment 4,82,100,2026-07-21,26.0,33,27
+S017,Diya,10A,Chemistry,Organic Chemistry,Assessment 7,66,100,2026-08-07,32.0,47,31
+S060,Gaurav,10C,Chemistry,Thermodynamics,Assessment 8,88,100,2026-08-12,33.0,34,30
+S049,Aman,10C,Mathematics,Algebra,Assessment 5,47,100,2026-07-25,56.0,35,16
+S059,Rajat,10C,Chemistry,Inorganic Chemistry,Assessment 9,72,100,2026-08-20,43.0,45,33
+S051,Raj,10C,Chemistry,Chemical Bonding,Assessment 5,63,100,2026-07-26,37.0,32,20
+S025,Nisha,10B,Computer Science,DBMS,Assessment 4,80,100,2026-07-20,53.0,37,30
+S057,Tushar,10C,Physics,Current Electricity,Assessment 7,71,100,2026-08-07,50.0,49,35
+S057,Tushar,10C,Computer Science,Data Structures,Assessment 3,73,100,2026-07-15,51.0,46,34
+S019,Isha,10A,Computer Science,Data Structures,Assessment 10,42,100,2026-08-26,38.0,47,20
+S048,Varun,10C,Computer Science,Data Structures,Assessment 6,84,100,2026-07-31,29.0,49,41
+S052,Vansh,10C,Chemistry,Inorganic Chemistry,Assessment 1,74,100,2026-07-01,60.0,47,35
+S006,Rahul,10A,Physics,Mechanics,Assessment 9,55,100,2026-08-19,27.0,38,21
+S048,Varun,10C,Computer Science,Operating Systems,Assessment 5,80,100,2026-07-27,56.0,37,29
+S057,Tushar,10C,Mathematics,Probability,Assessment 1,76,100,2026-07-02,30.0,32,24
+S026,Pooja,10B,Mathematics,Calculus,Assessment 3,75,100,2026-07-14,47.0,49,37
+S003,Aditya,10A,Physics,Current Electricity,Assessment 2,69,100,2026-07-09,28.0,32,22
+S032,Sakshi,10B,Physics,Thermodynamics,Assessment 4,73,100,2026-07-19,49.0,49,36
+S046,Sahil,10C,Chemistry,Organic Chemistry,Assessment 10,80,100,2026-08-24,26.0,44,35
+S017,Diya,10A,Mathematics,Probability,Assessment 1,56,100,2026-07-03,31.0,34,19
+S028,Muskan,10B,Computer Science,DBMS,Assessment 7,80,100,2026-08-06,53.0,32,26
+S020,Meera,10A,Computer Science,Data Structures,Assessment 2,55,100,2026-07-08,48.0,38,21
+S039,Ved,10B,Physics,Optics,Assessment 6,89,100,2026-08-02,57.0,30,27
+S042,Atharv,10C,Chemistry,Chemical Bonding,Assessment 4,76,100,2026/35/80,55.0,36,28
+S050,Nikhil,10C,Computer Science,DBMS,Assessment 2,81,100,2026-07-08,42.0,40,33
+S035,Ritika,10B,Computer Science,DBMS,Assessment 4,74,100,2026-07-20,48.0,49,36
+S031,Neha,10B,Computer Science,DBMS,Assessment 9,62,100,2026-08-20,45.0,34,21
+S014,Kunal,10A,Computer Science,Data Structures,Assessment 1,76,100,2026-07-03,51.0,44,33
+S010,Ansh,10A,Chemistry,Organic Chemistry,Assessment 10,59,100,2026-08-26,40.0,32,19
+S038,Dhruv,10B,Mathematics,Calculus,Assessment 3,88,100,2026-07-14,45.0,47,41
+S009,Ishaan,10A,Mathematics,Calculus,Assessment 8,86,100,2026-08-13,38.0,48,41
+S046,Sahil,10C,Chemistry,Chemical Bonding,Assessment 9,84,100,2026-08-19,56.0,34,29
+S034,Palak,10B,Chemistry,Organic Chemistry,Assessment 1,84,100,2026-07-01,59.0,37,31
+S022,Riya,10B,Physics,,Assessment 5,66,100,2026-07-26,30.0,46,30
+S047,Abhishek,10C,Computer Science,DBMS,Assessment 7,67,100,2026-08-07,30.0,42,28
+S013,Yash,10A,Mathematics,Algebra,Assessment 2,81,100,2026-07-07,43.0,39,31
+S003,Aditya,10A,Computer Science,Computer Networks,Assessment 1,69,100,2026-07-01,46.0,32,22
+S008,Kabir,10A,Physics,Current Electricity,Assessment 2,70,100,2026-07-07,58.0,44,31
+S011,Krishna,10A,Chemistry,Organic Chemistry,Assessment 7,69,100,2026-08-06,36.0,41,28
+S028,Muskan,10B,Mathematics,Algebra,Assessment 1,87,100,2026-07-01,48.0,41,36
+S044,Shivansh,10C,Chemistry,Thermodynamics,Assessment 6,65,100,2026-08-02,30.0,39,25
+S011,Krishna,10A,Chemistry,Chemical Bonding,Assessment 3,60,100,2026-07-14,52.0,41,24
