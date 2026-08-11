@@ -1,7 +1,35 @@
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Environment variables
 .env
+
+# Python cache
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
 .vscode/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+
+
+# Raw student data
+data/raw_data.csv
+
+# Generated processed data
+data/processed_data.csv
