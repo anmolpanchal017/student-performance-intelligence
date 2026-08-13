@@ -101,3 +101,11 @@ def manual_prediction(request: ManualPredictionRequest):
     )
 
     return result
+
+
+
+@app.get("/")
+def home():
+    return {
+        "message": "Student Performance Intelligence API is running"
+    }
