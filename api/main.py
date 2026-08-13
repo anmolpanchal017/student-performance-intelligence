@@ -8,12 +8,37 @@ from services.class_service import (
     build_class_service
 )
 
+from pydantic import BaseModel
+import pandas as pd
+
+from services.manual_service import build_manual_service
+
 
 app = FastAPI(
     title="Student Performance Intelligence API",
     description="AI-powered student performance analytics API",
     version="1.0.0"
 )
+
+class ManualPredictionRequest(BaseModel):
+
+    student_id: str
+    student_name: str
+    class_id: str
+
+    subject: str
+    topic: str
+    assessment_name: str
+
+    marks_obtained: float
+    total_marks: float
+
+    attempt_date: str
+
+    time_taken: float
+
+    questions_attempted: int
+    questions_correct: int
 
 
 DATA_PATH = "data/raw_data.csv"
@@ -59,5 +84,20 @@ def get_class(class_id: str):
             status_code=404,
             detail="Class not found"
         )
+
+    return result
+
+
+@app.post("/manual-prediction")
+def manual_prediction(request: ManualPredictionRequest):
+
+    manual_df = pd.DataFrame([
+        request.model_dump()
+    ])
+
+    result = build_manual_service(
+        manual_df,
+        "ml/risk_model.pkl"
+    )
 
     return result

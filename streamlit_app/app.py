@@ -139,7 +139,8 @@ page = st.sidebar.radio(
     "Navigation",
     [
         "Student Analysis",
-        "Class Analysis"
+        "Class Analysis",
+        "Manual Prediction"
     ]
 )
 
@@ -779,3 +780,205 @@ elif page == "Class Analysis":
                 st.info(
                     insight["recommendation"]
                 )
+
+
+elif page == "Manual Prediction":
+
+    st.title("Manual Student Prediction")
+
+    st.write(
+        "Enter a student's assessment details "
+        "to generate analytics, risk prediction "
+        "and AI insights."
+    )
+
+    with st.form("manual_prediction_form"):
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            student_id = st.text_input(
+                "Student ID",
+                "S999"
+            )
+
+            student_name = st.text_input(
+                "Student Name",
+                "Demo Student"
+            )
+
+            class_id = st.text_input(
+                "Class ID",
+                "10A"
+            )
+
+            subject = st.text_input(
+                "Subject",
+                "Mathematics"
+            )
+
+            topic = st.text_input(
+                "Topic",
+                "Probability"
+            )
+
+        with col2:
+
+            assessment_name = st.text_input(
+                "Assessment Name",
+                "Unit Test"
+            )
+
+            marks_obtained = st.number_input(
+                "Marks Obtained",
+                min_value=0.0,
+                value=18.0
+            )
+
+            total_marks = st.number_input(
+                "Total Marks",
+                min_value=1.0,
+                value=20.0
+            )
+
+            attempt_date = st.date_input(
+                "Attempt Date"
+            )
+
+            time_taken = st.number_input(
+                "Time Taken (minutes)",
+                min_value=1.0,
+                value=25.0
+            )
+
+            questions_attempted = st.number_input(
+                "Questions Attempted",
+                min_value=1,
+                value=20
+            )
+
+            questions_correct = st.number_input(
+                "Questions Correct",
+                min_value=0,
+                value=18
+            )
+
+        submitted = st.form_submit_button(
+            "Generate Prediction"
+        )
+
+    if submitted:
+
+        payload = {
+            "student_id": student_id,
+            "student_name": student_name,
+            "class_id": class_id,
+            "subject": subject,
+            "topic": topic,
+            "assessment_name": assessment_name,
+            "marks_obtained": marks_obtained,
+            "total_marks": total_marks,
+            "attempt_date": str(attempt_date),
+            "time_taken": time_taken,
+            "questions_attempted": questions_attempted,
+            "questions_correct": questions_correct
+        }
+
+        response = requests.post(
+            f"{API_BASE_URL}/manual-prediction",
+            json=payload
+        )
+
+        if response.status_code == 200:
+
+            result = response.json()
+
+            st.success(
+                "Prediction generated successfully!"
+            )
+
+            analytics = result["analytics"]
+            risk = result["risk"]
+            ai = result["ai_insight"]["insight"]
+
+            st.subheader("Performance")
+
+            c1, c2, c3 = st.columns(3)
+
+            c1.metric(
+                "Score",
+                f"{analytics['overall_score']}%"
+            )
+
+            c2.metric(
+                "Accuracy",
+                f"{analytics['overall_accuracy']}%"
+            )
+
+            c3.metric(
+                "Risk",
+                risk["level"]
+            )
+
+            st.subheader("Strengths")
+
+            st.write(
+                f"**Subject:** "
+                f"{analytics['strongest_subject']}"
+            )
+
+            st.write(
+                f"**Topic:** "
+                f"{analytics['strongest_topic']}"
+            )
+
+            st.subheader("Areas to Improve")
+
+            st.write(
+                f"**Subject:** "
+                f"{analytics['weakest_subject']}"
+            )
+
+            st.write(
+                f"**Topic:** "
+                f"{analytics['weakest_topic']}"
+            )
+
+            st.subheader("Trend")
+
+            st.write(
+                analytics["trend"]
+            )
+
+            st.write(
+                f"Difference: "
+                f"{analytics['trend_difference']}"
+            )
+
+            st.subheader("AI Summary")
+
+            st.write(
+                ai["summary"]
+            )
+
+            st.subheader("Explanation")
+
+            st.write(
+                ai["explanation"]
+            )
+
+            st.subheader("Recommendation")
+
+            st.write(
+                ai["recommendation"]
+            )
+
+        else:
+
+            st.error(
+                "Prediction failed."
+            )
+
+            st.json(
+                response.json()
+            )
