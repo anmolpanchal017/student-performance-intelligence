@@ -2,6 +2,10 @@
 
 An AI-powered academic performance analysis and risk prediction platform. Combines **Machine Learning risk assessment**, **data analytics**, and **Groq LLM-synthesized insights** with a **modern React frontend** and a high-performance **FastAPI backend**.
 
+<p align="center">
+  <img src="client/src/assets/SPI_image.png" alt="Student Performance Intelligence Platform Preview" width="100%" />
+</p>
+
 ---
 
 ## ✨ Features
