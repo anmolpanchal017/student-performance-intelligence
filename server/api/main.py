@@ -37,8 +37,11 @@ class ManualPredictionRequest(BaseModel):
     questions_correct: int
 
 
-DATA_PATH = "data/raw_data.csv"
-MODEL_PATH = "ml/risk_model.pkl"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = str(BASE_DIR / "data" / "raw_data.csv")
+MODEL_PATH = str(BASE_DIR / "ml" / "risk_model.pkl")
 
 
 @app.get("/")
