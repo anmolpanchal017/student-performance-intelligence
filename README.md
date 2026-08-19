@@ -1,425 +1,180 @@
 # 🎓 Student Performance Intelligence
 
-An AI-powered student performance analysis system that combines
-data analytics, machine learning, and LLM-generated insights to
-help understand student and class-level academic performance.
-
----
-
-## 🚀 Overview
-
-Student Performance Intelligence analyzes assessment data to provide:
-
-- Student performance analytics
-- Class-level performance analytics
-- Subject-wise performance
-- Topic-wise performance
-- Performance trend analysis
-- Student academic risk prediction
-- AI-generated academic insights
-- Personalized recommendations
-- Interactive Streamlit dashboard
-- FastAPI backend
-
-The system follows a modular architecture where data processing,
-analytics, machine learning, LLM generation, backend services,
-and frontend presentation are separated into independent layers.
+An AI-powered academic performance analysis and risk prediction platform. Combines **Machine Learning risk assessment**, **data analytics**, and **Groq LLM-synthesized insights** with a **modern React frontend** and a high-performance **FastAPI backend**.
 
 ---
 
 ## ✨ Features
 
-### 👨‍🎓 Student Analysis
-
-For an individual student, the system provides:
-
-- Overall score
-- Overall accuracy
-- Strongest subject
-- Weakest subject
-- Strongest topic
-- Weakest topic
-- Subject-wise performance
-- Topic-wise performance
-- Performance trend
-- Risk probability
-- Risk level
-- AI-generated explanation
-- Personalized recommendation
+- 👤 **Student Intelligence**: Comprehensive student profiles, overall score & accuracy metrics, topic breakdown, trend indicators, ML risk level classification, and AI academic advice.
+- 🏫 **Class Intelligence**: Aggregated classroom averages, student enrollment tracking, strongest vs. weakest subject distributions, historical term comparison, and AI class pedagogical insights.
+- ⚡ **Manual Risk Predictor**: Interactive testing interface for custom assessment scores, completion times, and accuracy metrics with real-time risk classification.
+- 🤖 **Groq LLM & Fallback Engine**: Natural language performance summaries and actionable recommendations with automated offline rule-synthesis fallback.
+- 🎨 **Enterprise SaaS Design**: Minimal Linear/Vercel-inspired UI built with React 19, Tailwind CSS v4, Lucide icons, Recharts visualizations, and Gilroy & Poppins typography.
 
 ---
 
-### 🏫 Class Analysis
-
-For a class, the system provides:
-
-- Number of students
-- Class average
-- Class accuracy
-- Strongest subject
-- Weakest subject
-- Subject-wise performance
-- Topic-wise performance
-- Earlier vs recent performance
-- Performance trend
-- AI-generated class insights
-- Class-level recommendations
-
----
-
-## 🤖 Machine Learning
-
-The project uses machine learning to predict student academic risk.
-
-### Models Evaluated
-
-The following models were compared:
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-
-Model performance was evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-
-After comparison and validation, the final model was selected based
-on the evaluation results.
-
-The trained model is stored using Joblib:
+## 🏗️ Architecture
 
 ```text
-ml/risk_model.pkl
-ML Features
-
-The risk model uses student-level features including:
-
-avg_score
-avg_accuracy
-avg_time_taken
-total_attempts
-trend_difference
-📊 Data Processing
-
-The raw assessment data contains information such as:
-
-student_id
-student_name
-class_id
-subject
-topic
-assessment_name
-marks_obtained
-total_marks
-attempt_date
-time_taken
-questions_attempted
-questions_correct
-
-The processing pipeline performs:
-
-CSV loading
-Duplicate removal
-Date conversion
-Invalid date handling
-Score percentage calculation
-Accuracy calculation
-Data sorting
-Student-level feature creation
-📈 Analytics
-Student Analytics
-
-Student analytics calculate:
-
-Overall performance
-Accuracy
-Subject performance
-Topic performance
-Strongest areas
-Weakest areas
-Performance trend
-Class Analytics
-
-Class analytics calculate:
-
-Class average
-Class accuracy
-Subject performance
-Topic performance
-Strongest areas
-Weakest areas
-Historical performance trend
-🧠 LLM Integration
-
-The project uses Groq's LLM API to generate natural-language
-academic insights.
-
-The LLM receives structured analytical data rather than raw
-student records.
-
-It generates:
-
-Summary
-Explanation
-Recommendation
-Fallback Mechanism
-
-If the LLM API fails or returns invalid output, the application
-automatically generates a deterministic fallback insight.
-
-This ensures that the application can still provide useful
-recommendations even when the external LLM service is unavailable.
-
-🏗️ Architecture
-                    ┌──────────────────┐
-                    │   Streamlit UI   │
-                    └────────┬─────────┘
-                             │
-                             ↓
-                    ┌──────────────────┐
-                    │     FastAPI      │
-                    └────────┬─────────┘
-                             │
-                ┌────────────┴────────────┐
-                ↓                         ↓
-        Student Service             Class Service
+┌─────────────────────────────────────────────────────────┐
+│              React 19 Frontend (Vite)                   │
+│         Dashboard • Student • Class • Manual            │
+└───────────────────────────┬─────────────────────────────┘
+                            │ REST API (JSON)
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│                 FastAPI Backend                         │
+│            CORS • Analytics • Services                  │
+└───────────────┬─────────────────────────┬───────────────┘
                 │                         │
-                ↓                         ↓
-        ┌───────────────┐        ┌───────────────┐
-        │   Analytics   │        │   Analytics   │
-        └───────┬───────┘        └───────┬───────┘
-                │                        │
-                ↓                        ↓
-        ┌───────────────┐        ┌───────────────┐
-        │ ML Prediction │        │   LLM Insight │
-        └───────┬───────┘        └───────┬───────┘
-                │                        │
-                └────────────┬───────────┘
-                             ↓
-                    ┌──────────────────┐
-                    │  JSON Response   │
-                    └────────┬─────────┘
-                             ↓
-                    ┌──────────────────┐
-                    │   Streamlit UI   │
-                    └──────────────────┘
-📁 Project Structure
+                ▼                         ▼
+┌───────────────────────────────┐ ┌───────────────────────┐
+│ Machine Learning (Joblib/Sklearn)│ │ Groq LLM Insight Engine│
+│       `risk_model.pkl`        │ │   (Llama / Fallback)  │
+└───────────────────────────────┘ └───────────────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (`/client`)
+- **Framework**: React 19 + Vite 8
+- **Styling**: Tailwind CSS v4 + Custom Glassmorphic Utilities
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Typography**: Gilroy & Poppins
+
+### Backend (`/server`)
+- **API Framework**: FastAPI + Uvicorn
+- **Data Analytics**: Pandas + NumPy
+- **Machine Learning**: Scikit-Learn (Logistic Regression, Random Forest, Decision Tree, SVM) + Joblib
+- **AI & LLM Integration**: Groq API (Llama models)
+
+---
+
+## 📁 Repository Structure
+
+```text
 student-performance-intelligence/
+├── client/                      # React 19 + Vite Frontend
+│   ├── src/
+│   │   ├── components/          # Navbar, Sidebar, Overview, StudentAnalysis, ClassAnalysis, ManualPrediction, AIInsightCard
+│   │   ├── services/            # API client layer (Fetch / CORS)
+│   │   ├── types/               # TypeScript interfaces
+│   │   ├── App.tsx              # Main layout & router container
+│   │   └── index.css            # Tailwind & custom design tokens
+│   ├── package.json
+│   └── vite.config.ts
 │
-├── api/
-│   ├── __init__.py
-│   └── main.py
+├── server/                      # FastAPI Backend
+│   ├── api/
+│   │   └── main.py              # FastAPI endpoints & CORS middleware
+│   ├── analytics/               # Student, class, and trend data processing
+│   ├── ml/                      # Scikit-Learn risk prediction model & features
+│   │   └── risk_model.pkl
+│   ├── llm/                     # Groq LLM insight generator & fallbacks
+│   ├── services/                # Business logic services
+│   ├── data/
+│   │   └── raw_data.csv         # Assessment data
+│   └── requirements.txt
 │
-├── analytics/
-│   ├── __init__.py
-│   ├── processing.py
-│   ├── student_analysis.py
-│   ├── class_analysis.py
-│   └── trend_analysis.py
-│
-├── ml/
-│   ├── __init__.py
-│   ├── prediction.py
-│   └── risk_model.pkl
-│
-├── llm/
-│   ├── __init__.py
-│   └── insight_generator.py
-│
-├── services/
-│   ├── __init__.py
-│   ├── student_service.py
-│   └── class_service.py
-│
-├── streamlit_app/
-│   └── app.py
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── ...
-│   └── final_model.ipynb
-│
-├── data/
-│   └── raw_data.csv
-│
-├── .env
 ├── .gitignore
-├── requirements.txt
 └── README.md
-🔌 API Endpoints
-Health Check
-GET /
-Student Analysis
-GET /student/{student_id}
+```
 
-Example:
+---
 
-/student/S001
-Class Analysis
-GET /class/{class_id}
+## 🚀 Quick Start Guide
 
-Example:
+### Prerequisites
+- **Python**: `3.10` or higher
+- **Node.js**: `18.0` or higher (with `npm`)
 
-/class/10A
+---
 
-Interactive API documentation is available through FastAPI Swagger:
+### 1. Setting Up the Backend (`server/`)
 
-http://127.0.0.1:8000/docs
-🖥️ Dashboard
+1. Navigate to the `server/` directory:
+   ```bash
+   cd server
+   ```
 
-The Streamlit application provides two primary views:
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
 
-Student Analysis
-Student ID
-    ↓
-Performance KPIs
-    ↓
-Subject Performance
-    ↓
-Topic Performance
-    ↓
-Trend
-    ↓
-Risk Prediction
-    ↓
-AI Insight
-Class Analysis
-Class ID
-    ↓
-Class KPIs
-    ↓
-Subject Performance
-    ↓
-Topic Performance
-    ↓
-Historical Trend
-    ↓
-AI Insight
-⚙️ Installation
-1. Clone the repository
-git clone <your-github-repository-url>
-cd student-performance-intelligence
-2. Create virtual environment
-python -m venv .venv
-3. Activate virtual environment
+3. Activate the virtual environment:
+   - **Windows (PowerShell)**:
+     ```powershell
+     .\venv\Scripts\Activate.ps1
+     ```
+   - **Windows (Command Prompt)**:
+     ```cmd
+     venv\Scripts\activate.bat
+     ```
+   - **macOS / Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
 
-Windows:
+4. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-.venv\Scripts\activate
-4. Install dependencies
-pip install -r requirements.txt
-🔐 Environment Variables
+5. *(Optional)* Configure Environment Variables for Groq LLM:
+   Create a `.env` file in `server/`:
+   ```env
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
+   *Note: If no Groq API key is supplied, the server automatically uses rule-based fallback generators, ensuring full offline functionality.*
 
-Create a .env file in the project root:
+6. Start the FastAPI server:
+   ```bash
+   python -m uvicorn api.main:app --reload --port 8000
+   ```
+   - API Server: `http://127.0.0.1:8000`
+   - Interactive Swagger Docs: `http://127.0.0.1:8000/docs`
 
-GROQ_API_KEY=your_groq_api_key
+---
 
-Never commit .env to GitHub.
+### 2. Setting Up the Frontend (`client/`)
 
-The .gitignore file should contain:
+1. Open a new terminal and navigate to `client/`:
+   ```bash
+   cd client
+   ```
 
-.env
-.venv/
-__pycache__/
-.ipynb_checkpoints/
-▶️ Running the Application
-Start FastAPI
-python -m uvicorn api.main:app --reload
+2. Install Node dependencies:
+   ```bash
+   npm install
+   ```
 
-FastAPI will run at:
+3. Launch the Vite development server:
+   ```bash
+   npm run dev
+   ```
 
-http://127.0.0.1:8000
-Start Streamlit
+4. Open `http://localhost:5173` in your browser.
 
-Open another terminal:
+---
 
-python -m streamlit run streamlit_app/app.py
+## 🔌 API Endpoints Reference
 
-The dashboard will be available at:
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/` | Health check status |
+| `GET` | `/students` | List of available student records for autocomplete |
+| `GET` | `/classes` | List of unique class IDs |
+| `GET` | `/student/{student_id}` | Detailed student profile, score, accuracy, risk probability, and AI insights |
+| `GET` | `/class/{class_id}` | Class average, student count, term trend comparison, and AI insights |
+| `POST` | `/manual-prediction` | Calculate real-time risk classification for custom assessment inputs |
 
-http://localhost:8501
-🧪 Development Workflow
+---
 
-Data exploration, machine learning experimentation,
-feature engineering, model comparison, and LLM testing
-are performed in Jupyter notebooks.
+## 📄 License
 
-Production/application logic is maintained in Python modules.
-
-This separation allows experimentation without coupling
-the application to notebook execution.
-
-🛠️ Tech Stack
-Programming
-Python
-Data Science
-Pandas
-NumPy
-Scikit-learn
-Machine Learning
-Logistic Regression
-Decision Tree
-Random Forest
-SVM
-Joblib
-Backend
-FastAPI
-Uvicorn
-AI / LLM
-Groq API
-Llama model
-Frontend
-Streamlit
-Development
-Jupyter Notebook
-VS Code
-Git
-GitHub
-🔒 Reliability
-
-The system includes:
-
-Invalid date handling
-Duplicate removal
-Missing-data handling
-Student/class not-found handling
-API timeout handling
-LLM failure fallback
-Invalid LLM JSON handling
-Environment variable based API-key management
-📌 Future Improvements
-
-Potential future improvements include:
-
-Teacher authentication
-Student authentication
-Historical performance graphs
-Student comparison
-Class ranking
-Early-warning notifications
-Automated teacher reports
-PDF report generation
-Database integration
-Advanced model tuning
-Model monitoring
-Deployment on cloud infrastructure
-👨‍💻 Author
-
-Anmol Panchal
-
-B.Tech Computer Science Engineering
-
-Interested in:
-
-Artificial Intelligence
-Machine Learning
-Data Science
-Software Development
-📄 License
-
-This project is developed for educational,
-portfolio, and academic purposes.
+Distributed under the MIT License. See `LICENSE` for details.
