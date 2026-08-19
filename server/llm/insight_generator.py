@@ -7,11 +7,14 @@ from groq import Groq
 
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY")
-
-client = Groq(
-    api_key=groq_api_key
-)
+def get_groq_client():
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        return None
+    try:
+        return Groq(api_key=api_key)
+    except Exception:
+        return None
 
 
 def generate_fallback_insight(
@@ -181,6 +184,9 @@ def generate_ai_insight(
     """
 
     try:
+        client = get_groq_client()
+        if client is None:
+            raise ValueError("GROQ_API_KEY is missing or invalid")
 
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",

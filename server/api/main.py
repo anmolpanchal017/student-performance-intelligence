@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -37,9 +44,6 @@ class ManualPredictionRequest(BaseModel):
     questions_correct: int
 
 
-from pathlib import Path
-
-BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = str(BASE_DIR / "data" / "raw_data.csv")
 MODEL_PATH = str(BASE_DIR / "ml" / "risk_model.pkl")
 
